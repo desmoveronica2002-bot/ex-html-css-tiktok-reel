@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Permanent+Marker&family=Sigmar&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
 
 * {
 	margin: 0;
@@ -9,6 +10,10 @@
 body {
 	margin: 0 auto;
 	font-family: 'TikTok Sans', sans-serif;
+}
+
+.icona-bianca {
+	color: #fff;
 }
 
 video {
@@ -34,6 +39,7 @@ video {
 	left: 0;
 	right: 0;
     display: flex;	
+	flex-direction:;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
