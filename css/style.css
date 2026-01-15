@@ -12,9 +12,14 @@ body {
 	font-family: 'TikTok Sans', sans-serif;
 }
 
+.semi-transparent {
+	color: rgba(255,255,255,0.6);
+}
+
 .white {
 	color: #fff;
 }
+
 .lateral-icon-size{
 	font-size: 25px;
 }
