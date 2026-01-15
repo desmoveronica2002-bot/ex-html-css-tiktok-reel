@@ -26,10 +26,16 @@ video {
 	object-position: center;
 	object-fit: cover;
 }
+
 img {
 	width: 60px;
 	height: 60px;
 	border-radius: 50px;
+}
+
+p{
+	font-size: 10px;
+	text-align: left;
 }
 
 .reel-page {
@@ -51,6 +57,7 @@ img {
 	align-items:center;
 	justify-content: space-between;
 	padding: 10px; 
+	
 }
  button {
 	
@@ -64,8 +71,7 @@ img {
 .reel-header > div:last-child {
   font-size: 20px;
 }
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+
 
 
 /* Footer */
@@ -78,7 +84,8 @@ footer {
 	color: #fff;
 	display: flex;
 	flex-direction: column;
-	padding: 20px; 
+	padding: 13px; 
+	background: linear-gradient( rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%, rgba(0,0,0,1) 50%,rgba(0,0,0,1) 100%);
 
 	.son-footer {
 	
@@ -87,11 +94,16 @@ footer {
 		justify-content: space-between;
 		text-align: center;
 		margin-top: 15px;
+		padding-top: 12px;
+	  
+		   .plus {
+			font-size: 20px;
+			 transform: scaleX(1.4);
+		   }
 	}
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
 }
+
+
 
 /* Sidebar : barra laterale */ 
 .sidebar {
@@ -108,26 +120,3 @@ footer {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
-
-
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
-.debug footer {
-	min-height: 100px;
-	border: 2px dashed #fff;
-}
-
-.debug .sidebar {
-	min-width: 80px;
-	min-height: 450px;
-	border: 2px dashed #ff0;
-}
-
-.debug .reel-header {
-	min-height: 50px;
-	border: 2px dashed #fff;
-}
-
-/* --------------------- */
