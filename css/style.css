@@ -131,6 +131,20 @@ footer {
 	}
 }
 
+/* inserisco il numerino con i messaggi da leggere */ 
+
+.notification-number {
+  position: absolute;
+  top: -3px;
+  right: 15px;
+  background: red; 
+  font-size: 10px; 
+  width: 16px; /*per la larghezza*/ 
+  border-radius: 5px;
+}
+
+
+
 
 
 /* Sidebar : barra laterale */ 
