@@ -59,6 +59,7 @@ img {
 	width: 60px;
 	height: 60px;
 	border-radius: 50px;
+	border: 2px solid white; 
 }
 
 p{
@@ -143,10 +144,6 @@ footer {
   border-radius: 5px;
 }
 
-
-
-
-
 /* Sidebar : barra laterale */ 
 .sidebar {
 	padding: 0 16px;
@@ -158,4 +155,21 @@ footer {
 	justify-content:flex-start;
 	align-items: center;
 	gap:10px;
+}
+
+/* inserisco il + per follower */ 
+.follow {
+  position: absolute;
+  top: 48px;
+  right: 20px;
+  background: red;  
+  color: #fff;
+  width: 20px; /* per la larghezza */ 
+  height: 20px; /* per l'altezza */ 
+  border-radius: 50px;
+
+  font-size: 15px;
+  display: flex;
+  align-items: center;  /*verticale*/
+  justify-content: center;  /*orizzontale*/
 }
