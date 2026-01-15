@@ -16,6 +16,29 @@ body {
 	color: rgba(255,255,255,0.6);
 }
 
+.reel-header > div:nth-child(2) button:hover{
+	border-bottom: 2px solid white;
+	color: white;
+}   
+
+/*per la notifica a pallino rossa*/
+
+.notify {
+	position: relative;
+}
+
+.notification-dot {
+	position: absolute;
+	width: 6px;
+    height: 6px;
+    background: rgb(139, 89, 89);
+    border-radius: 50%;
+	top: -3px;
+    right: -2px;
+}
+
+/*---------------------------------*/
+
 .white {
 	color: #fff;
 }
@@ -121,7 +144,4 @@ footer {
 	justify-content:flex-start;
 	align-items: center;
 	gap:10px;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
 }
