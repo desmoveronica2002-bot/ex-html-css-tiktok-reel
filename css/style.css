@@ -88,6 +88,7 @@ p{
 	padding: 10px; 
 	
 }
+
  button {
 	
 	background-color: transparent;
@@ -115,7 +116,7 @@ footer {
 	flex-direction: column;
 	padding: 13px; 
 	background: linear-gradient( rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%, rgba(0,0,0,1) 50%,rgba(0,0,0,1) 100%);
-
+	
 	.son-footer {
 	
 		display: flex;
@@ -127,10 +128,12 @@ footer {
 	  
 		   .plus {
 			font-size: 20px;
-			 transform: scaleX(1.4);
+			transform: scaleX(1.4);
 
-		   }
+		   } 
+    }
 }
+
 
 /* inserisco il numerino con i messaggi da leggere */ 
 
@@ -155,6 +158,8 @@ footer {
 }*/ 
 
 
+
+
 /* Sidebar : barra laterale */ 
 .sidebar {
 	padding: 0 16px;
@@ -166,6 +171,10 @@ footer {
 	justify-content:flex-start;
 	align-items: center;
 	gap:10px;
+
+	p {
+		text-align: center;
+	}
 }
 
 /* inserisco il + per follower */ 
