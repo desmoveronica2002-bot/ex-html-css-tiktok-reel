@@ -128,8 +128,8 @@ footer {
 		   .plus {
 			font-size: 20px;
 			 transform: scaleX(1.4);
+
 		   }
-	}
 }
 
 /* inserisco il numerino con i messaggi da leggere */ 
@@ -143,6 +143,17 @@ footer {
   width: 16px; /*per la larghezza*/ 
   border-radius: 5px;
 }
+
+/* bordi pulsante + basso con bordi colorati*/ 
+
+/*.bi-plus-square-fill {     PROVA VENUTA MALE
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid #00f2ea;
+  border-right: 2px solid #ff0050;
+  border-radius: 9px;
+}*/ 
+
 
 /* Sidebar : barra laterale */ 
 .sidebar {
